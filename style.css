@@ -8,6 +8,7 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
+    gap: 20%;
 }
 .right {
     width: 30%;
@@ -17,9 +18,15 @@
 }
 .left {
     width: 30%;
+    height: 100vh;
     background-image: url("./bg-main-desktop.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:  auto 100%;
+}
+.right .line3 {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
 }
 .right .choise1 {
     display: flex;
@@ -28,4 +35,173 @@
 .right .choise1 .inner-choise1 {
     display: flex;
     flex-direction: row;
+    gap: 2.5%;
 }
+.right .label1 {
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.right .input-1 {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+    outline: none;
+}
+.right .input-1::placeholder {
+    color: #ccccce;
+}
+.right .input-1:focus {
+    border: 1px solid #6f607f;
+}
+.right .label2 {
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.right .input-2 {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+    outline: none;
+}
+.right .input-2::placeholder {
+    color: #ccccce;
+}
+.right .input-2:focus {
+    border: 1px solid #6f607f;
+}
+.right .label3 {
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.right .input-3 {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+    outline: none;
+}
+.right .input-2:focus {
+    border: 1px solid #6f607f;
+}
+.right .input-3 {
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+    outline: none;
+}
+.right .input-3::placeholder {
+    color: #ccccce;
+}
+.right .input-3:focus {
+    border: 1px solid #6f607f;
+}
+.right .input-4 {
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+    outline: none;
+}
+.right .input-4::placeholder {
+    color: #ccccce;
+}
+.right .input-4:focus {
+    border: 1px solid #6f607f;
+}
+.right .label4 {
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.right .input-5 {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+    outline: none;
+}
+.right .input-5::placeholder {
+    color: #ccccce;
+}
+.right .input-5:focus {
+    border: 1px solid #6f607f;
+}
+.right button {
+    background-color: #220930;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #887b8f;
+    cursor: pointer;
+} 
+.part-3 {
+    margin-top: -461px;
+    display: flex;
+    flex-direction: column;
+}
+.part-3 .box1 {
+    width: 30%;
+    height: 30vh;
+    background-image: url("./bg-card-front.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.part-3 .box-2 {
+    width: 30%;
+    height: 30vh;
+    background-image: url("./bg-card-back.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin-left: 15%;
+}
+.part-3 .box-2  h1 {
+    text-align: center;
+}
+.box1 .circles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+.box1 .circle-1 {
+    width: 10%;
+    height: 6vh;
+    background-color: white;
+    border-radius: 100%;
+}
+.box1 .circle-2 {
+    width: 5%;
+    height: 3vh;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-left: 2%;
+}
+.box1 h1 {
+    text-align: center;
+    letter-spacing: .3rem;
+    margin-top: 75px;
+    margin-bottom: -56px;
+    font-size: 25px;
+}
+.box1 
+@media sreen (max-width: 768px) {
+
+}
+
+
